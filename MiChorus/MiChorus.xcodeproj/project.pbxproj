@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B6187B27563DC4004EFCA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6187A27563DC4004EFCA7 /* AppDelegate.m */; };
+		84B6187E27563DC4004EFCA7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6187D27563DC4004EFCA7 /* SceneDelegate.m */; };
+		84B6188127563DC4004EFCA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6188027563DC4004EFCA7 /* ViewController.m */; };
+		84B6188427563DC4004EFCA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6188227563DC4004EFCA7 /* Main.storyboard */; };
+		84B6188627563DC8004EFCA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B6188527563DC8004EFCA7 /* Assets.xcassets */; };
+		84B6188927563DC8004EFCA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6188727563DC8004EFCA7 /* LaunchScreen.storyboard */; };
+		84B6188C27563DC8004EFCA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6188B27563DC8004EFCA7 /* main.m */; };
+		84B6189627563DC8004EFCA7 /* MiChorusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6189527563DC8004EFCA7 /* MiChorusTests.m */; };
+		84B618A027563DC8004EFCA7 /* MiChorusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6189F27563DC8004EFCA7 /* MiChorusUITests.m */; };
+		84B618A227563DC8004EFCA7 /* MiChorusUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B618A127563DC8004EFCA7 /* MiChorusUITestsLaunchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B6189227563DC8004EFCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B6186E27563DC4004EFCA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B6187527563DC4004EFCA7;
+			remoteInfo = MiChorus;
+		};
+		84B6189C27563DC8004EFCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B6186E27563DC4004EFCA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B6187527563DC4004EFCA7;
+			remoteInfo = MiChorus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B6187627563DC4004EFCA7 /* MiChorus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiChorus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6187927563DC4004EFCA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84B6187A27563DC4004EFCA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84B6187C27563DC4004EFCA7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		84B6187D27563DC4004EFCA7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		84B6187F27563DC4004EFCA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84B6188027563DC4004EFCA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84B6188327563DC4004EFCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B6188527563DC8004EFCA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B6188827563DC8004EFCA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B6188A27563DC8004EFCA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B6188B27563DC8004EFCA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B6189127563DC8004EFCA7 /* MiChorusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChorusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6189527563DC8004EFCA7 /* MiChorusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiChorusTests.m; sourceTree = "<group>"; };
+		84B6189B27563DC8004EFCA7 /* MiChorusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChorusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6189F27563DC8004EFCA7 /* MiChorusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiChorusUITests.m; sourceTree = "<group>"; };
+		84B618A127563DC8004EFCA7 /* MiChorusUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiChorusUITestsLaunchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B6187327563DC4004EFCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6188E27563DC8004EFCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6189827563DC8004EFCA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B6186D27563DC4004EFCA7 = {
+			isa = PBXGroup;
+			children = (
+				84B6187827563DC4004EFCA7 /* MiChorus */,
+				84B6189427563DC8004EFCA7 /* MiChorusTests */,
+				84B6189E27563DC8004EFCA7 /* MiChorusUITests */,
+				84B6187727563DC4004EFCA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B6187727563DC4004EFCA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B6187627563DC4004EFCA7 /* MiChorus.app */,
+				84B6189127563DC8004EFCA7 /* MiChorusTests.xctest */,
+				84B6189B27563DC8004EFCA7 /* MiChorusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B6187827563DC4004EFCA7 /* MiChorus */ = {
+			isa = PBXGroup;
+			children = (
+				84B6187927563DC4004EFCA7 /* AppDelegate.h */,
+				84B6187A27563DC4004EFCA7 /* AppDelegate.m */,
+				84B6187C27563DC4004EFCA7 /* SceneDelegate.h */,
+				84B6187D27563DC4004EFCA7 /* SceneDelegate.m */,
+				84B6187F27563DC4004EFCA7 /* ViewController.h */,
+				84B6188027563DC4004EFCA7 /* ViewController.m */,
+				84B6188227563DC4004EFCA7 /* Main.storyboard */,
+				84B6188527563DC8004EFCA7 /* Assets.xcassets */,
+				84B6188727563DC8004EFCA7 /* LaunchScreen.storyboard */,
+				84B6188A27563DC8004EFCA7 /* Info.plist */,
+				84B6188B27563DC8004EFCA7 /* main.m */,
+			);
+			path = MiChorus;
+			sourceTree = "<group>";
+		};
+		84B6189427563DC8004EFCA7 /* MiChorusTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B6189527563DC8004EFCA7 /* MiChorusTests.m */,
+			);
+			path = MiChorusTests;
+			sourceTree = "<group>";
+		};
+		84B6189E27563DC8004EFCA7 /* MiChorusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B6189F27563DC8004EFCA7 /* MiChorusUITests.m */,
+				84B618A127563DC8004EFCA7 /* MiChorusUITestsLaunchTests.m */,
+			);
+			path = MiChorusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B6187527563DC4004EFCA7 /* MiChorus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B618A527563DC8004EFCA7 /* Build configuration list for PBXNativeTarget "MiChorus" */;
+			buildPhases = (
+				84B6187227563DC4004EFCA7 /* Sources */,
+				84B6187327563DC4004EFCA7 /* Frameworks */,
+				84B6187427563DC4004EFCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiChorus;
+			productName = MiChorus;
+			productReference = 84B6187627563DC4004EFCA7 /* MiChorus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B6189027563DC8004EFCA7 /* MiChorusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B618A827563DC8004EFCA7 /* Build configuration list for PBXNativeTarget "MiChorusTests" */;
+			buildPhases = (
+				84B6188D27563DC8004EFCA7 /* Sources */,
+				84B6188E27563DC8004EFCA7 /* Frameworks */,
+				84B6188F27563DC8004EFCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B6189327563DC8004EFCA7 /* PBXTargetDependency */,
+			);
+			name = MiChorusTests;
+			productName = MiChorusTests;
+			productReference = 84B6189127563DC8004EFCA7 /* MiChorusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B6189A27563DC8004EFCA7 /* MiChorusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B618AB27563DC8004EFCA7 /* Build configuration list for PBXNativeTarget "MiChorusUITests" */;
+			buildPhases = (
+				84B6189727563DC8004EFCA7 /* Sources */,
+				84B6189827563DC8004EFCA7 /* Frameworks */,
+				84B6189927563DC8004EFCA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B6189D27563DC8004EFCA7 /* PBXTargetDependency */,
+			);
+			name = MiChorusUITests;
+			productName = MiChorusUITests;
+			productReference = 84B6189B27563DC8004EFCA7 /* MiChorusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B6186E27563DC4004EFCA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					84B6187527563DC4004EFCA7 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					84B6189027563DC8004EFCA7 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 84B6187527563DC4004EFCA7;
+					};
+					84B6189A27563DC8004EFCA7 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 84B6187527563DC4004EFCA7;
+					};
+				};
+			};
+			buildConfigurationList = 84B6187127563DC4004EFCA7 /* Build configuration list for PBXProject "MiChorus" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B6186D27563DC4004EFCA7;
+			productRefGroup = 84B6187727563DC4004EFCA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B6187527563DC4004EFCA7 /* MiChorus */,
+				84B6189027563DC8004EFCA7 /* MiChorusTests */,
+				84B6189A27563DC8004EFCA7 /* MiChorusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B6187427563DC4004EFCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6188927563DC8004EFCA7 /* LaunchScreen.storyboard in Resources */,
+				84B6188627563DC8004EFCA7 /* Assets.xcassets in Resources */,
+				84B6188427563DC4004EFCA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6188F27563DC8004EFCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6189927563DC8004EFCA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B6187227563DC4004EFCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6188127563DC4004EFCA7 /* ViewController.m in Sources */,
+				84B6187B27563DC4004EFCA7 /* AppDelegate.m in Sources */,
+				84B6188C27563DC8004EFCA7 /* main.m in Sources */,
+				84B6187E27563DC4004EFCA7 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6188D27563DC8004EFCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6189627563DC8004EFCA7 /* MiChorusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6189727563DC8004EFCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B618A227563DC8004EFCA7 /* MiChorusUITestsLaunchTests.m in Sources */,
+				84B618A027563DC8004EFCA7 /* MiChorusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B6189327563DC8004EFCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B6187527563DC4004EFCA7 /* MiChorus */;
+			targetProxy = 84B6189227563DC8004EFCA7 /* PBXContainerItemProxy */;
+		};
+		84B6189D27563DC8004EFCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B6187527563DC4004EFCA7 /* MiChorus */;
+			targetProxy = 84B6189C27563DC8004EFCA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B6188227563DC4004EFCA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B6188327563DC4004EFCA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B6188727563DC8004EFCA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B6188827563DC8004EFCA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B618A327563DC8004EFCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B618A427563DC8004EFCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B618A627563DC8004EFCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiChorus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shine.MiChorus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B618A727563DC8004EFCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MiChorus/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shine.MiChorus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84B618A927563DC8004EFCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shine.MiChorusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiChorus.app/MiChorus";
+			};
+			name = Debug;
+		};
+		84B618AA27563DC8004EFCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shine.MiChorusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiChorus.app/MiChorus";
+			};
+			name = Release;
+		};
+		84B618AC27563DC8004EFCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shine.MiChorusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiChorus;
+			};
+			name = Debug;
+		};
+		84B618AD27563DC8004EFCA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2W7ZZD6VR;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shine.MiChorusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiChorus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B6187127563DC4004EFCA7 /* Build configuration list for PBXProject "MiChorus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B618A327563DC8004EFCA7 /* Debug */,
+				84B618A427563DC8004EFCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B618A527563DC8004EFCA7 /* Build configuration list for PBXNativeTarget "MiChorus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B618A627563DC8004EFCA7 /* Debug */,
+				84B618A727563DC8004EFCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B618A827563DC8004EFCA7 /* Build configuration list for PBXNativeTarget "MiChorusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B618A927563DC8004EFCA7 /* Debug */,
+				84B618AA27563DC8004EFCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B618AB27563DC8004EFCA7 /* Build configuration list for PBXNativeTarget "MiChorusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B618AC27563DC8004EFCA7 /* Debug */,
+				84B618AD27563DC8004EFCA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B6186E27563DC4004EFCA7 /* Project object */;
+}
