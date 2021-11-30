@@ -17,6 +17,16 @@
 		84B6189627563DC8004EFCA7 /* MiChorusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6189527563DC8004EFCA7 /* MiChorusTests.m */; };
 		84B618A027563DC8004EFCA7 /* MiChorusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B6189F27563DC8004EFCA7 /* MiChorusUITests.m */; };
 		84B618A227563DC8004EFCA7 /* MiChorusUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B618A127563DC8004EFCA7 /* MiChorusUITestsLaunchTests.m */; };
+		84B618B327563EF8004EFCA7 /* ChrousVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B618B127563EF8004EFCA7 /* ChrousVC.m */; };
+		84B618B427563EF8004EFCA7 /* ChrousVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B618B227563EF8004EFCA7 /* ChrousVC.xib */; };
+		84B618B827563F02004EFCA7 /* FalseChrousVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B618B527563F02004EFCA7 /* FalseChrousVC.xib */; };
+		84B618B927563F02004EFCA7 /* FalseChrousVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B618B627563F02004EFCA7 /* FalseChrousVC.m */; };
+		84B618BE27563F21004EFCA7 /* Agoraffmpeg.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B618BA27563F16004EFCA7 /* Agoraffmpeg.xcframework */; };
+		84B618BF27563F21004EFCA7 /* Agoraffmpeg.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84B618BA27563F16004EFCA7 /* Agoraffmpeg.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84B618C127563F22004EFCA7 /* AgoraRtcKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B618BB27563F1D004EFCA7 /* AgoraRtcKit.xcframework */; };
+		84B618C227563F22004EFCA7 /* AgoraRtcKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84B618BB27563F1D004EFCA7 /* AgoraRtcKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84B618C6275640E4004EFCA7 /* MIAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B618C5275640E4004EFCA7 /* MIAudioUnit.m */; };
+		84B618C9275641FA004EFCA7 /* ChmFDlpzR5yAX1arABux65e_tAY786.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B618C8275641FA004EFCA7 /* ChmFDlpzR5yAX1arABux65e_tAY786.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		84B618C027563F21004EFCA7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84B618BF27563F21004EFCA7 /* Agoraffmpeg.xcframework in Embed Frameworks */,
+				84B618C227563F22004EFCA7 /* AgoraRtcKit.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		84B6187627563DC4004EFCA7 /* MiChorus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiChorus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B6187927563DC4004EFCA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +79,18 @@
 		84B6189B27563DC8004EFCA7 /* MiChorusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiChorusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B6189F27563DC8004EFCA7 /* MiChorusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiChorusUITests.m; sourceTree = "<group>"; };
 		84B618A127563DC8004EFCA7 /* MiChorusUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiChorusUITestsLaunchTests.m; sourceTree = "<group>"; };
+		84B618B027563EF8004EFCA7 /* ChrousVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChrousVC.h; sourceTree = "<group>"; };
+		84B618B127563EF8004EFCA7 /* ChrousVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChrousVC.m; sourceTree = "<group>"; };
+		84B618B227563EF8004EFCA7 /* ChrousVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChrousVC.xib; sourceTree = "<group>"; };
+		84B618B527563F02004EFCA7 /* FalseChrousVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FalseChrousVC.xib; sourceTree = "<group>"; };
+		84B618B627563F02004EFCA7 /* FalseChrousVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FalseChrousVC.m; sourceTree = "<group>"; };
+		84B618B727563F02004EFCA7 /* FalseChrousVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FalseChrousVC.h; sourceTree = "<group>"; };
+		84B618BA27563F16004EFCA7 /* Agoraffmpeg.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Agoraffmpeg.xcframework; sourceTree = "<group>"; };
+		84B618BB27563F1D004EFCA7 /* AgoraRtcKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AgoraRtcKit.xcframework; sourceTree = "<group>"; };
+		84B618C4275640E4004EFCA7 /* MIAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIAudioUnit.h; sourceTree = "<group>"; };
+		84B618C5275640E4004EFCA7 /* MIAudioUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIAudioUnit.m; sourceTree = "<group>"; };
+		84B618C727564114004EFCA7 /* MIConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIConst.h; sourceTree = "<group>"; };
+		84B618C8275641FA004EFCA7 /* ChmFDlpzR5yAX1arABux65e_tAY786.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ChmFDlpzR5yAX1arABux65e_tAY786.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +98,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B618BE27563F21004EFCA7 /* Agoraffmpeg.xcframework in Frameworks */,
+				84B618C127563F22004EFCA7 /* AgoraRtcKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,12 +143,19 @@
 		84B6187827563DC4004EFCA7 /* MiChorus */ = {
 			isa = PBXGroup;
 			children = (
+				84B618C8275641FA004EFCA7 /* ChmFDlpzR5yAX1arABux65e_tAY786.mp3 */,
+				84B618BA27563F16004EFCA7 /* Agoraffmpeg.xcframework */,
+				84B618BB27563F1D004EFCA7 /* AgoraRtcKit.xcframework */,
+				84B618C327564093004EFCA7 /* AudioCollection */,
+				84B618AF27563EA1004EFCA7 /* FalseChorus */,
+				84B618AE27563E94004EFCA7 /* Chorus */,
 				84B6187927563DC4004EFCA7 /* AppDelegate.h */,
 				84B6187A27563DC4004EFCA7 /* AppDelegate.m */,
 				84B6187C27563DC4004EFCA7 /* SceneDelegate.h */,
 				84B6187D27563DC4004EFCA7 /* SceneDelegate.m */,
 				84B6187F27563DC4004EFCA7 /* ViewController.h */,
 				84B6188027563DC4004EFCA7 /* ViewController.m */,
+				84B618C727564114004EFCA7 /* MIConst.h */,
 				84B6188227563DC4004EFCA7 /* Main.storyboard */,
 				84B6188527563DC8004EFCA7 /* Assets.xcassets */,
 				84B6188727563DC8004EFCA7 /* LaunchScreen.storyboard */,
@@ -136,6 +182,35 @@
 			path = MiChorusUITests;
 			sourceTree = "<group>";
 		};
+		84B618AE27563E94004EFCA7 /* Chorus */ = {
+			isa = PBXGroup;
+			children = (
+				84B618B027563EF8004EFCA7 /* ChrousVC.h */,
+				84B618B127563EF8004EFCA7 /* ChrousVC.m */,
+				84B618B227563EF8004EFCA7 /* ChrousVC.xib */,
+			);
+			path = Chorus;
+			sourceTree = "<group>";
+		};
+		84B618AF27563EA1004EFCA7 /* FalseChorus */ = {
+			isa = PBXGroup;
+			children = (
+				84B618B727563F02004EFCA7 /* FalseChrousVC.h */,
+				84B618B627563F02004EFCA7 /* FalseChrousVC.m */,
+				84B618B527563F02004EFCA7 /* FalseChrousVC.xib */,
+			);
+			path = FalseChorus;
+			sourceTree = "<group>";
+		};
+		84B618C327564093004EFCA7 /* AudioCollection */ = {
+			isa = PBXGroup;
+			children = (
+				84B618C4275640E4004EFCA7 /* MIAudioUnit.h */,
+				84B618C5275640E4004EFCA7 /* MIAudioUnit.m */,
+			);
+			path = AudioCollection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +221,7 @@
 				84B6187227563DC4004EFCA7 /* Sources */,
 				84B6187327563DC4004EFCA7 /* Frameworks */,
 				84B6187427563DC4004EFCA7 /* Resources */,
+				84B618C027563F21004EFCA7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,7 +316,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B6188927563DC8004EFCA7 /* LaunchScreen.storyboard in Resources */,
+				84B618C9275641FA004EFCA7 /* ChmFDlpzR5yAX1arABux65e_tAY786.mp3 in Resources */,
+				84B618B827563F02004EFCA7 /* FalseChrousVC.xib in Resources */,
 				84B6188627563DC8004EFCA7 /* Assets.xcassets in Resources */,
+				84B618B427563EF8004EFCA7 /* ChrousVC.xib in Resources */,
 				84B6188427563DC4004EFCA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,8 +345,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B618C6275640E4004EFCA7 /* MIAudioUnit.m in Sources */,
+				84B618B927563F02004EFCA7 /* FalseChrousVC.m in Sources */,
 				84B6188127563DC4004EFCA7 /* ViewController.m in Sources */,
 				84B6187B27563DC4004EFCA7 /* AppDelegate.m in Sources */,
+				84B618B327563EF8004EFCA7 /* ChrousVC.m in Sources */,
 				84B6188C27563DC8004EFCA7 /* main.m in Sources */,
 				84B6187E27563DC4004EFCA7 /* SceneDelegate.m in Sources */,
 			);
