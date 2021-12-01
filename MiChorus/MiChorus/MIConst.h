@@ -8,7 +8,7 @@
 #ifndef MIConst_h
 #define MIConst_h
 
-#define MIAgoraAppID            @""
+#define MIAgoraAppID            @"20338919f2ca4af4b1d7ec23d8870b56"
 
 /*** for audio queue ***/
 #define kAudioSampleRate            48000
